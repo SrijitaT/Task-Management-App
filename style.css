@@ -1,0 +1,33 @@
+#done-list button,  
+#list button{
+    margin-left:10px;
+    float:right;
+}
+#done-list,
+#list{
+    list-style-type: none;
+}
+#list li{
+    cursor: pointer;
+}
+
+.delete-btn{
+    background-color: red;
+    color:white;
+}
+.done-btn{
+    background-color: green;
+    color:white;
+}
+
+.task-done{
+    text-decoration: line-through;
+}
+.task-done p{
+    display:none;
+}
+.alert{
+    -webkit-box-shadow: 6px 4px 6px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 4px 6px -4px rgba(0,0,0,0.75);
+    box-shadow: 6px 4px 6px -4px rgba(0,0,0,0.75);
+}
